@@ -1,0 +1,29 @@
+a = "hello"
+
+"hello" is a object of the class str
+
+Quase tudo o que trabalhamos em python sao objetos de classes especificas
+
+string = "hello"
+print(string.upper()) upper() é um method de um objeto pertencente á class str, se nao tivesse parenteses era um atributo
+
+
+
+method -- uma função que esta dentro de uma classe
+
+
+# the first parameter in a method is always self!, to make sure we are changing the attribues of the right object
+
+
+quando dizemos d.get_age(), invisiblement d is passed as input to the def get_age, so if self is not there, a error will pop up!
+
+class attributes are attribtes specific to the class, and not the instance
+
+quando usar class_attributes?
+    - quando se tem uma constante, exemplo gravity=9.8, se meter dentro da class como class_attribute, quando usar esta class noutro scrip a constante tmb vem
+    - qunado se tem uma variavel que é a mesma para todas as instancias, exemplo, class Person, variavel = numero de pessoas
+
+class_methods sao metodos que se chamam diretametne na class, such as, Person.add_person()
+
+
+static_methods não acede a nada, sao funcoes que que estao juntas num pack!
